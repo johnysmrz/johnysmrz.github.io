@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan &#39;Lopata&#39; Smrž</title>
+    <link>http://jan-smrz.cz/</link>
+    <description>Recent content on Jan &#39;Lopata&#39; Smrž</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jan 2025 18:05:45 +0100</lastBuildDate>
+    <atom:link href="http://jan-smrz.cz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://jan-smrz.cz/leather/test/</link>
+      <pubDate>Fri, 24 Jan 2025 18:05:45 +0100</pubDate>
+      <guid>http://jan-smrz.cz/leather/test/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

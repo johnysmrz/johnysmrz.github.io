@@ -1,0 +1,68 @@
+baseurl = "http://jan-smrz.cz"
+title = "Jan 'Lopata' Smrž"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Jan 'Lopata' Smrž"
+  info = "Programmer, leatherworker, idealist and dreamer"
+  description = "Jan 'Lopata' Smrž and Lopatacraft personal website"
+  keywords = "developer,leathercrafter,lopatacraft"
+  avatarurl = "/avatar.jpg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 1984
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+# [taxonomies]
+#   category = "categories"
+#   series = "series"
+#   tag = "tags"
+#   author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/johnysmrz/"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 2
+  url = "https://www.instagram.com/lopatacraft/"
+
+# Menu links
+[[menu.main]]
+  name = "Leather"
+  weight = 1
+  url  = "leather/"
+
+[[menu.main]]
+  name = "Programming"
+  weight = 2
+  url = "programming/"
