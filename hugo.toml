@@ -8,9 +8,9 @@ defaultcontentlanguage = "en"
 [pagination]
 pagerSize = 20
 
-[services]
-[services.disqus]
-shortname = "yourdiscussshortname"
+# [services]
+# [services.disqus]
+# shortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
@@ -30,8 +30,8 @@ style = "github-dark"
 
   enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+  colorScheme = "dark"
+  hidecolorschemetoggle = true
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
@@ -56,6 +56,12 @@ style = "github-dark"
   weight = 2
   url = "https://www.instagram.com/lopatacraft/"
 
+[[params.social]]
+  name = "Facebook"
+  icon = "fa-brands fa-facebook fa-2x"
+  weight = 3
+  url = "https://www.facebook.com/jan.smrz/"
+
 # Menu links
 [[menu.main]]
   name = "Leather"
@@ -66,3 +72,8 @@ style = "github-dark"
   name = "Programming"
   weight = 2
   url = "programming/"
+
+[[menu.main]]
+  name = "About me"
+  weight = 3
+  url = "about-me"
