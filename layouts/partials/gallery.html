@@ -1,0 +1,39 @@
+<section class="container list">
+    {{ .Content }}
+    <style type="text/css">
+      .coder-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+      }
+      @media (min-width: 0) and (max-width: 400px) {
+        .coder-gallery {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      @media (min-width: 401px) and (max-width: 800px) {
+        .coder-gallery {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .coder-gallery > a {
+        width: 284px;
+        height: 284px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        display: block;
+      }
+    </style>
+    {{ range $category, $products := .Site.Data.leather }}
+    <div class="coder-gallery">
+      {{ range $products }}
+        <a style='background-image: url("/leather/{{ .slug }}/{{ .slug }}_preview.jpg");' href="/leather/{{ .slug }}"></a>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+  </section>
+  
