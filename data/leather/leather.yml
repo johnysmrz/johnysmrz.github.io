@@ -1,3 +1,61 @@
+- title: Saffiano black and red wallet
+  slug: saffiano-black-and-red-wallet
+  description: A small, simple wallet crafted from genuine Italian Saffiano leather, lined with the softest goat leather. Each piece is entirely handmade in my workshop, making it truly one-of-a-kind. Inside, you'll find 4 card slots and a spacious central compartment. Perfect for everyday carry.
+  price: 3500
+  tags:
+    - wallet
+  preview_image: IMG_7907.jpg
+
+- title: Fleur de lis rolled
+  slug: fleurdelis-rolled-pouch
+  description: A rolled pouch with a fleur de lis design. The pouch is made of 3mm thick veg-tan leather 600D kortexin fabric with extra reinforcement.
+  price: 1200
+  tags:
+    - pouch
+  preview_image: IMG_8013.jpg
+
+- title: Fallout flask and cup
+  slug: fallout-flask-and-cup
+  description: A flask and cup set inspired by legendary fallout series specially the firs game. Simple stainless flask and cup lined with blue leather and airbrushed golden number 13. Are you a Vault Dweller?
+  price: 1000
+  tags:
+    - fallout
+    - flask
+  preview_image: lopatacraft_1707758525_3301240242647296529_8150161682.jpg
+
+- title: Mini wallets series
+  slug: mini-wallet-series
+  description: A series of mini wallets for festivals and events. Just for few cards and some cash.
+  price: 400
+  tags:
+    - wallet
+  preview_image: lopatacraft_1704375605_3272862251160586985_8150161682.jpg
+
+- title: Green wallet with Crazy horse inside
+  slug: green-wallet-with-crazy-horse-inside
+  description: A green wallet made of shop dyed veg-tan outside shell with airbrush patina. The inside is made of Crazy horse leather.
+  price: 3500
+  tags:
+    - wallet
+  preview_image: lopatacraft_1705339803_3280950531995361683_8150161682.jpg
+
+- title: Brown belt with saddle stitching
+  slug: brown-belt-with-saddle-stitching
+  description: A brown belt with saddle stitching. The belt is made of 3mm thick leather and has a width of 40mm.
+  price: 1800
+  tags:
+    - belt
+  preview_image: lopatacraft_1703492291_3265452478102479962_8150161682.jpg
+
+- title: Rolled pouch with black hearth
+  slug: rolled-pouch-with-black-hearth
+  description: A rolled pouch with a black hearth. The pouch is made of 3mm thick veg-tan leather and 600D kortexin fabric.
+  price: 800
+  tags:
+    - pouch
+  preview_image: IMG_7940.jpg
+
+
 - title: Muzzle loader belt pouch
   slug: muzzle-loader-belt-pouch
   description: A pouch for concieled carry of a muzzle loader gun. The pouch is made of 3mm thick veg-tan leather and has a belt loop.
@@ -5,6 +63,7 @@
   tags:
     - pouch
   preview_image: lopatacraft_1699639048_3233129134707527589_8150161682.jpg
+
 
 - title: Classic black belt
   slug: classic-black-belt
