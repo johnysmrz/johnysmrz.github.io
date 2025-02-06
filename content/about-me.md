@@ -22,16 +22,10 @@ draft = false
     }
     summary {
         ::marker {  
-            content: url("/splat_1.png") ' ';  
+            content: '➜ ';
+            color: dimgray;
         }
 
-        li:nth-child(3n)::marker {  
-            content: url("/splat_2.png") ' ';  
-        }
-
-        li:nth-child(3n - 1)::marker {  
-            content: url("/splat_3.png") ' ';  
-        }  
     }
 </style>
 
