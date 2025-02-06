@@ -4,6 +4,8 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+[markup.goldmark.renderer]
+unsafe= true
 
 [pagination]
 pagerSize = 20
