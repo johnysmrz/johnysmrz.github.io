@@ -66,16 +66,21 @@ style = "github-dark"
 
 # Menu links
 [[menu.main]]
-  name = "Leather"
+  name = "ADHD 🇨🇿"
   weight = 1
+  url = "/adhd"
+
+[[menu.main]]
+  name = "Leather"
+  weight = 2
   url  = "leather/"
 
 [[menu.main]]
   name = "Programming"
-  weight = 2
+  weight = 3
   url = "programming/"
 
 [[menu.main]]
   name = "About me"
-  weight = 3
+  weight = 4
   url = "about-me"
